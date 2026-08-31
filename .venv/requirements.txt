@@ -1,0 +1,48 @@
+
+# -------------------------
+# LangChain
+# -------------------------
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# -------------------------
+# Mistral AI
+# -------------------------
+langchain-mistralai
+mistralai
+
+# -------------------------
+# Web Search
+# -------------------------
+tavily-python
+langchain-tavily
+
+# -------------------------
+# Web Scraping
+# -------------------------
+beautifulsoup4
+requests
+
+# -------------------------
+# Environment Variables
+# -------------------------
+python-dotenv
+
+# -------------------------
+# Data Validation
+# -------------------------
+pydantic
+
+# -------------------------
+# Optional: HTTP / Async
+# -------------------------
+httpx
+
+# -------------------------
+# Optional: API Backend
+# -------------------------
+fastapi
+uvicorn
+
