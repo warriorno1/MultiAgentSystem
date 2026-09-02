@@ -1,6 +1,6 @@
 from langchain_mistralai import ChatMistralAI
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.agents import Agent
+
 from dotenv import load_dotenv
 from langchain.agents import create_agent
 from tools import web_search,scrape_url

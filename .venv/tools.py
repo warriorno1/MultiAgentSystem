@@ -28,7 +28,7 @@ def web_search(query: str)->str:
 
 @tool
 def scrape_url(url:str)->str:
-    """scrap and extract text from url for better and deep reading"""
+    """scrape and extract text from url for better and deep reading"""
 
     try:
         response = requests.get(url,timeout=8,headers = {"user-agent":"mozilla/5.0"})
@@ -40,7 +40,7 @@ def scrape_url(url:str)->str:
         return f"couldn't find scrap url : {str(e)} "
 
 
-print(scrap_url.invoke("https://edition.cnn.com/2026/08/26/weather/floods-nepal-cause-vis"))
+print(scrape_url.invoke("https://edition.cnn.com/2026/08/26/weather/floods-nepal-cause-vis"))
 
 
 
